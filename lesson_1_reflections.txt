@@ -1,0 +1,23 @@
+#How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+#it picked out the lines that were different so I didn't have to compare every
+single thing.
+
+#How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+#When I make corrections and then later want to go back to them, I have the
+version right there.  Or I can see a simplified version of my final program,
+perhaps, because it's an earlier version.
+
+#What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+#THe pros are that you get to make logical commits and you know when they were
+made.  THe con is mainly that you can forget and go a long time without making
+a commit, or your computer could crash, and you'd want at least a partial
+version of what you had before.
+
+How might using version control make you more confident to make changes that could break something?
+
+If I know I can go back I can try a bunch of things until something works,
+without having to worry about manually reverting everything back to the way it
+was.
