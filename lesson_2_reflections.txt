@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You need to do it to create a place in the file system where updates and
+information about the changes will be saved, the hidden . directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is just a list of files that you're going to add to the next
+commit.  So you can have a bunch of other files floating around, but maybe you
+only want to add one or two to the commit - you can add them without adding
+all the others.
