@@ -9,3 +9,22 @@ The staging area is just a list of files that you're going to add to the next
 commit.  So you can have a bunch of other files floating around, but maybe you
 only want to add one or two to the commit - you can add them without adding
 all the others.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can only add the files that belong to the logical change you want to commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to try two different ways of accomplishing something, or want to try out a feature while someone else is working on something else.
+
+How do the diagrams help you visualize the branch structure?
+
+They help me see what is a parent of what and what is unrelated and inaccessible.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It puts together everybody's changes or all the features in different branches.  We represent it the way we do to show that it comes from multiple commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If you let git do it it could merge things that conflict with one another. If you do merges manually, you know exactly what is going on, but it may be confusing, you might miss things, and it will take more time.
